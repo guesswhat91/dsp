@@ -46,7 +46,12 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+1. ls: list files that are not hidden  
+2. ls -a: list all files that are hidden (_Hidden files begin with a '.'_)  
+3. ls -l: list files with long format and also shows permissions  
+4. ls -lh: same as 'ls -l' (_i.e. long format and permissions_) in addition shows readable size of each file  
+5. ls -lah: same as 'ls- lh' but also includes hidden files  
+6. 
 
 ---
 
