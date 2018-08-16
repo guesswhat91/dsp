@@ -29,7 +29,7 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 7. _**'ls -a**_ = List all the hidden files too. Any files starting with a dot in front of it is a hidden file
 8. _**'cp'**_ = stands for copy.(_Example: cp ~/Documents/lee_personal/work/temp/test1.txt ~/Documents/lee_personal/work/test2.txt_)  
 9. _**'wc'**_ = Stands for word count  
-    _ _'wc -l'_ = will give the number of lines  
+    - _'wc -l'_ = will give the number of lines  
     - _'wc -w'_ = will give the number of words  
     - _'wc -c'_ = will give the number of characters  
 ---
