@@ -32,6 +32,7 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
     - _'wc -l'_ = will give the number of lines  
     - _'wc -w'_ = will give the number of words  
     - _'wc -c'_ = will give the number of characters  
+10. _**'tac'**_ = it is 'cat' in reverse :smiley:
 ---
 
 ### Q2.  List Files in Unix   
