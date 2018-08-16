@@ -46,12 +46,13 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-1. ls: list files that are not hidden  
-2. ls -a: list all files that are hidden (_Hidden files begin with a '.'_)  
-3. ls -l: list files with long format and also shows permissions  
-4. ls -lh: same as 'ls -l' (_i.e. long format and permissions_) in addition shows readable size of each file  
-5. ls -lah: same as 'ls- lh' but also includes hidden files  
-6. 
+1. ls: list files and folders that are not hidden.   
+2. ls -a: list all files and folders that are hidden (_Hidden files begin with a '.'_). 
+3. ls -l: list files and folders with long format and also shows permissions. 
+4. ls -lh: same as 'ls -l' (_i.e. long format and permissions_) in addition shows readable size of each file.  
+5. ls -lah: same as 'ls- lh' but also includes hidden files.  
+6. ls -t: list the files and folders by date and time (descending order).  
+7. ls -Glp: list files and folders with long format showing the type of file it is either a folder or file for example a txt file. 
 
 ---
 
@@ -59,7 +60,12 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+1. ls -d $PWD/* : Lists directory with full path for each file or folder. 
+2. ls -m : lists files and folders by comma separated.  
+3. ls -g : list files and folders in long format but does not show owner name. 
+4. ls -1 : list files and folders on separate lines. 
+5. ls - R: list files and folders with subdirectories (this one is evil :imp: not my favorite one but good to know now :smiley:). 
+
 
 ---
 
