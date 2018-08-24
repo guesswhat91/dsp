@@ -75,4 +75,4 @@ What does `xargs` do? Give an example of how to use it.
 
 It takes an input and executes a command for a repetitve procedure For example in the command below it will list all the txt files and read the beginning 2 line of each text file in a particular directory
 
-**ls *.txt | xargs head -2**
+_ls *.txt | xargs head -2_
