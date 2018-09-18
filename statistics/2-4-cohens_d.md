@@ -24,24 +24,24 @@ firsts.mean().totalwgt_lb, others.mean().totalwgt_lb
 
 **_I used the same fucntion that the author provided in the book**_. 
 
-_def CohenEffectSize(group1, group2):
+_def CohenEffectSize(group1, group2):  
     """Computes Cohen's effect size for two groups.
     
    _group1: Series or DataFrame_
     _group2: Series or DataFrame_
     
-   _returns: float if the arguments are Series;
-             Series if the arguments are DataFrames
+   _returns: float if the arguments are Series;_ 
+             _Series if the arguments are DataFrames_
    """
-    diff = group1.mean() - group2.mean()
+    _diff = group1.mean() - group2.mean()_
 
-   _var1 = group1.var()
-   _var2 = group2.var()
-    n1, n2 = len(group1), len(group2)
+   _var1 = group1.var()_
+   _var2 = group2.var()_
+   _n1, n2 = len(group1), len(group2)_
 
-   _pooled_var = (n1 * var1 + n2 * var2) / (n1 + n2)
-   _d = diff / np.sqrt(pooled_var)
-   _return d
+   _pooled_var = (n1 * var1 + n2 * var2) / (n1 + n2)_
+   _d = diff / np.sqrt(pooled_var)_
+   _return d_
 
 
 CohenEffectSize(firsts,others).totalwgt_lb
