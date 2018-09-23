@@ -21,12 +21,12 @@ _ex_sample = np.random.random(1000)_
 _'''usinf the Pmf class that the author provided in the thinkstats2 package'''_  
 _ex_sample_pmf = thinkstats2.Pmf(ex_sample, label='pmf_ex_sample')_  
 
-_'''Using thinplot to plot pmf distribution'''_  
+_'''Using thinplot to plot pmf'''_  
 _width = 0.4 / 16_  
 _thinkplot.Pmf(ex_sample_pmf, width=width)_  
 _thinkplot.Config(xlabel='ex_sample', ylabel='PMF')_  
 
-_'''Using thinplot to plot cdf distribution'''_  
+_'''Using thinplot to plot cdf'''_  
 _cdf_ex_sample = ex_sample_  
 _thinkplot.Cdf(thinkstats2.Cdf(cdf_ex_sample, label='cdf_ex_sample'))_    
 _thinkplot.Config(xlabel='edf_ex_sample', ylabel='CDF')_    
