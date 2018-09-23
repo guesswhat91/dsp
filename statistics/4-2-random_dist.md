@@ -16,7 +16,7 @@ _import thinkplot_
 
 
 _'''Generating a set of random numbers using numpy'''_  
-_ex_sample = np.random.random(1000)_ 
+_ex_sample = np.random.random(1000)_  
 
 _'''usinf the Pmf class that the author provided in the thinkstats2 package'''_  
 _ex_sample_pmf = thinkstats2.Pmf(ex_sample, label='pmf_ex_sample')_  
@@ -26,6 +26,9 @@ _width = 0.4 / 16_
 _thinkplot.Pmf(ex_sample_pmf, width=width)_  
 _thinkplot.Config(xlabel='ex_sample', ylabel='PMF')_  
 
+_'''Using thinplot to plot cdf distribution'''_  
 _cdf_ex_sample = ex_sample_  
-_thinkplot.Cdf(thinkstats2.Cdf(cdf_ex_sample, label='cdf_ex_sample'))_  
-_thinkplot.Config(xlabel='edf_ex_sample', ylabel='CDF')_  
+_thinkplot.Cdf(thinkstats2.Cdf(cdf_ex_sample, label='cdf_ex_sample'))_    
+_thinkplot.Config(xlabel='edf_ex_sample', ylabel='CDF')_    
+
+**The cdf distribution is uniform since it uses the 'Cdf'class (that the author provides) where the random numbers are ranked uniformly**  
