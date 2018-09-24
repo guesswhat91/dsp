@@ -107,7 +107,18 @@ Elvis Presley had a twin brother who died at birth.  What is the probability tha
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+#### Based on reading from the internet:
+
+- Frequentist is easy to compute compared to Bayesian. 
+- Frequentist is more commonly used since it is easy to compute compared to Bayesian. 
+- Frequntist have to be fully specified ahead of time. Where Bayesian can use information as it comes. 
+- Frequentist has been used for a longer time compared to Bayesian. 
+- Frequentist does not require a prior whereas Bayesian depends on prior and liklihood of observed data. 
+
+**_References used_**  
+[Article 1](https://ocw.mit.edu/courses/mathematics/18-05-introduction-to-probability-and-statistics-spring-2014/readings/MIT18_05S14_Reading20.pdf)  
+[Article 2](https://cfss.uchicago.edu/persp017_inference.html#objectives)
+
 
 ---
 
